@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KatalogueMovie</string>
+    <string name="masukkan_nama_movie">Movie Name</string>
+    <string name="cari">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_navigation_drawer">MyNavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_search_movie">Search Movie</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="search">Search</string>
+</resources>

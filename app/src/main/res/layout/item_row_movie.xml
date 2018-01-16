@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_vertical_margin"
+    android:id="@+id/rl_item">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:id="@+id/img_item_detail"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@id/img_item_detail"
+        android:text="Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_item_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@id/img_item_detail"
+        android:layout_below="@id/tv_item_title"
+        android:text="overview"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_item_release_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@id/img_item_detail"
+        android:layout_below="@id/tv_item_overview"
+        android:text="date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>
